@@ -5,6 +5,7 @@ const stardBtn = document.querySelector("#startBtn")
 const pausedBtn = document.querySelector("#pausedBtn")
 const resumeBtn = document.querySelector("#resumeBtn")
 const resetBtn = document.querySelector("#resetBtn")
+const lapsBtn = document.querySelector("#lapsBtn")
 
 let interval;
 let minutes = 0;
@@ -40,7 +41,8 @@ function startTimer() {
     }, 10);
 
     stardBtn.style.display = "none";
-    pausedBtn.style.display = "block"
+    pausedBtn.style.display = "block";
+    lapsBtn.style.display = "block";
 }
 
 function pauseTimer() {
@@ -69,6 +71,7 @@ function resetTimer() {
     pausedBtn.style.display = "none"
     resumeBtn.style.display = "none"
     stardBtn.style.display = "block"
+    lapsBtn.style.display = "none";
 }
 
 function formatTime(time) {
