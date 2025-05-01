@@ -60,6 +60,7 @@ function resetTimer() {
     minutes = 0;
     seconds = 0;
     milliseconds = 0;
+    isPaused = false;
 
     minutesEl.textContent = "00"
     secondsEl.textContent = "00"
