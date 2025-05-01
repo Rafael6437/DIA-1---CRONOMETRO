@@ -28,6 +28,10 @@
     padding-left: 7px;
 }
 
+.buttons {
+    display:flex ;
+}
+
 .btn{
     margin-left: 15px;
     padding: 10px 20px;
