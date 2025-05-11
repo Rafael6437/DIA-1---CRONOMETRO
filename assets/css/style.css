@@ -1,12 +1,16 @@
 .container {
+    width: 100vw;
+    height: 100vh;   
+    padding-top: 50px;
+    background-color: #dbe8f3;
+}
+
+.main{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: #dbe8f3;
-    width: 100vw;
-    height: 100vh;   
-    padding-top: 50px;
+    max-height: 300px;
 }
 
 .counter {
@@ -30,6 +34,7 @@
 
 .buttons {
     display:flex ;
+    padding-right: 33px;
 }
 
 .btn{
