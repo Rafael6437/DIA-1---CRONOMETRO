@@ -13,6 +13,18 @@
     max-height: 300px;
 }
 
+h1 {
+    font-size: 50px;
+    color: rgb(66, 0, 0);
+ 
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: rgb(66, 0, 0);
+}
+
 .counter {
     display: flex;
     justify-content: center;
@@ -72,14 +84,10 @@
     display: none;
 }
 
-h1 {
-    font-size: 50px;
-    color: rgb(66, 0, 0);
- 
+.laps {
+    
 }
 
-p {
-    display: flex;
-    justify-content: center;
-    color: rgb(66, 0, 0);
+#lapsList {
+
 }

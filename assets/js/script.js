@@ -6,6 +6,7 @@ const pausedBtn = document.querySelector("#pausedBtn")
 const resumeBtn = document.querySelector("#resumeBtn")
 const resetBtn = document.querySelector("#resetBtn")
 const lapsBtn = document.querySelector("#lapsBtn")
+const lapList = document.querySelector("#lapList")
 
 let interval;
 let minutes = 0;
@@ -17,6 +18,7 @@ stardBtn.addEventListener("click", startTimer)
 pausedBtn.addEventListener("click", pauseTimer)
 resumeBtn.addEventListener("click", resumeTimer)
 resetBtn.addEventListener("click", resetTimer)
+lapsBtn.addEventListener("click", addLap)
 
 function startTimer() {
 
@@ -80,4 +82,8 @@ function formatTime(time) {
 
 function formatMilliseconds(time) {
     return time < 100 ? `0${time}`.padStart(3, "0") : time;
+}
+
+function addLap() {
+
 }
