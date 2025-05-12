@@ -74,6 +74,8 @@ function resetTimer() {
     resumeBtn.style.display = "none"
     stardBtn.style.display = "block"
     lapsBtn.style.display = "none";
+
+    lapList.innerHTML = ""
 }
 
 function formatTime(time) {

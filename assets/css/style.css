@@ -84,10 +84,6 @@ p {
     display: none;
 }
 
-.laps {
-    
-}
-
 #lapList li::marker {
     content: counter(list-item) "° ";
 }
