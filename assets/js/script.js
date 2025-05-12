@@ -85,5 +85,9 @@ function formatMilliseconds(time) {
 }
 
 function addLap() {
+    const lapTime = `Laps = ${formatTime(minutes)}:${formatTime(seconds)}:${formatTime(milliseconds)}`;
 
+    const newLap = document.createElement("li");
+    newLap.textContent = lapTime;
+    lapList.appendChild(newLap);
 }
