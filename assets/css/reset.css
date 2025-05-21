@@ -1,5 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Bungee", sans-serif;;
+    font-family: "Super Mario 256", sans-serif;
+}
+
+@font-face {
+    font-family: "Super Mario 256";
+    src: url("../fonts/SuperMario256.ttf") format("truetype");
 }
