@@ -51,12 +51,14 @@ function pauseTimer() {
     isPaused = true
     pausedBtn.style.display = "none";
     resumeBtn.style.display = "block";
+    lapsBtn.style.display = "none"
 }
 
 function resumeTimer() {
     isPaused = false
     resumeBtn.style.display = "none"
     pausedBtn.style.display = "block"
+    lapsBtn.style.display = "block"
 }
 
 function resetTimer() {
