@@ -1,7 +1,7 @@
 .container {
     width: 100vw;
     height: 100vh;   
-    background-color: #dbe8f3;
+    background: linear-gradient(#5198d3,#cde0f0 ) ;
 }
 
 .main{
