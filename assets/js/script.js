@@ -7,6 +7,7 @@ const resumeBtn = document.querySelector("#resumeBtn")
 const resetBtn = document.querySelector("#resetBtn")
 const lapsBtn = document.querySelector("#lapsBtn")
 const lapList = document.querySelector("#lapList")
+const MarioRun = document.querySelector(".MarioRun")
 
 let interval;
 let minutes = 0;
@@ -45,6 +46,8 @@ function startTimer() {
     stardBtn.style.display = "none";
     pausedBtn.style.display = "block";
     lapsBtn.style.display = "block";
+
+    MarioRun.src = "/assets/img/mario.gif"
 }
 
 function pauseTimer() {
@@ -78,6 +81,8 @@ function resetTimer() {
     lapsBtn.style.display = "none";
 
     lapList.innerHTML = ""
+
+    MarioRun.src = "/assets/img/Mario idle 2.png"
 }
 
 function formatTime(time) {
