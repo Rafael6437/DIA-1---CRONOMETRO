@@ -46,6 +46,7 @@ function startTimer() {
     stardBtn.style.display = "none";
     pausedBtn.style.display = "block";
     lapsBtn.style.display = "block";
+    MarioRun.style.padding = "0px 0px 58px 0px"
 
     MarioRun.src = "/assets/img/mario.gif"
 }
@@ -54,7 +55,7 @@ function pauseTimer() {
     isPaused = true
     pausedBtn.style.display = "none";
     resumeBtn.style.display = "block";
-    lapsBtn.style.display = "none"
+    lapsBtn.style.display = "none";
 }
 
 function resumeTimer() {
@@ -75,10 +76,11 @@ function resetTimer() {
     secondsEl.textContent = "00"
     millisecondsEl.textContent = "000"
 
-    pausedBtn.style.display = "none"
-    resumeBtn.style.display = "none"
-    stardBtn.style.display = "block"
+    pausedBtn.style.display = "none";
+    resumeBtn.style.display = "none";
+    stardBtn.style.display = "block";
     lapsBtn.style.display = "none";
+    MarioRun.style.padding = "0px 0px 0px 0px"
 
     lapList.innerHTML = ""
 

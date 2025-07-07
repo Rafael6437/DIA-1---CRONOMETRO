@@ -105,6 +105,7 @@ p {
 }
 
 .MarioRun {
+    padding-top: 0px 0px 0px 0px;
     position: absolute;
     z-index: 1;
     top: 70%;
